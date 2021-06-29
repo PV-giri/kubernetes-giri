@@ -20,4 +20,5 @@ spec:
         ports:
         - containerPort: 80
       nodeSelector:
-        ENV: prod
+        ENV: prod   # ## here nodeSelector for to assign pod only particular labels like here command {kubectl label <nodehostname means privateip> ENV=prod}
+            
