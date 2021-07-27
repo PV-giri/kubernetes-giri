@@ -1,5 +1,5 @@
 
-#kubectl taint node ip-10-0-0-24  perf=low:NoSchedule
+# kubectl label node ip-10-0-0-24  ENV=prod
 
 apiVersion: apps/v1
 kind: Deployment
